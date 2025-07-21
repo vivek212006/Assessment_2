@@ -57,3 +57,11 @@ int main() {
                 checkEvenOdd(num);
             }
             break;
+	    default:
+            printf("Invalid choice!\n");
+            return 1;
+    }
+
+    printf("\n=== Program completed ===\n");
+    return 0;
+}
