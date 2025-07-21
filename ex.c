@@ -19,4 +19,12 @@ void checkMultipleNumbers(int arr[], int size) {
         }
     }
 }
-
+int main() {
+    int choice, num, count;
+    
+    printf("=== Even or Odd Checker ===\n");
+    printf("1. Check single number\n");
+    printf("2. Check multiple numbers\n");
+    printf("3. Interactive input\n");
+    printf("Enter your choice (1-3): ");
+    scanf("%d", &choice);
