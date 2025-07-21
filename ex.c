@@ -34,3 +34,16 @@ int main() {
             scanf("%d", &num);
             checkEvenOdd(num);
             break;
+	    {
+                int numbers[] = {12, 7, 25, 18, 33, 44, 9, 100};
+                int size = sizeof(numbers) / sizeof(numbers[0]);
+
+                printf("Predefined numbers: ");
+                for (int i = 0; i < size; i++) {
+                    printf("%d ", numbers[i]);
+                }
+                printf("\n");
+
+                checkMultipleNumbers(numbers, size);
+            }
+            break;
