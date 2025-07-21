@@ -28,3 +28,9 @@ int main() {
     printf("3. Interactive input\n");
     printf("Enter your choice (1-3): ");
     scanf("%d", &choice);
+    switch(choice) {
+        case 1:
+            printf("Enter a number: ");
+            scanf("%d", &num);
+            checkEvenOdd(num);
+            break;
