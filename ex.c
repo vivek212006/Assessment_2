@@ -47,3 +47,13 @@ int main() {
                 checkMultipleNumbers(numbers, size);
             }
             break;
+	    printf("How many numbers do you want to check? ");
+            scanf("%d", &count);
+
+            printf("Enter %d numbers:\n", count);
+            for (int i = 0; i < count; i++) {
+                printf("Number %d: ", i + 1);
+                scanf("%d", &num);
+                checkEvenOdd(num);
+            }
+            break;
